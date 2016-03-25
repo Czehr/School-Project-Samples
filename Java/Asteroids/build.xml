@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project AsteroidGame with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="/home/czehr/Devlib/JavaDev/workspace"/>
+    <property name="dir.jarfile" value="${dir.buildfile}"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/AsteroidGame.jar">
+            <manifest>
+                <attribute name="Main-Class" value="asteroidgame.AsteroidGame"/>
+                <attribute name="Class-Path" value=". lib/BlobZX.jar"/>
+            </manifest>
+            <fileset dir="${dir.workspace}/AsteroidGame/bin"/>
+        </jar>
+        <delete dir="${dir.jarfile}/lib"/>
+        <mkdir dir="${dir.jarfile}/lib"/>
+        <copy file="${dir.workspace}/AsteroidGame/lib/BlobZX.jar" todir="${dir.jarfile}/lib"/>
+    </target>
+</project>
