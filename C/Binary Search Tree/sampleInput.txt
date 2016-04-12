@@ -1,0 +1,15 @@
+6
+121 Matt 205000 3000 3 2.0 2000 35 Blueberry Lane
+163 Amy 450000 5000 5 5.5 2016 8885 Winter Garden Drive
+116 Grant 375000 3000 3 2.0 2015 191 Oviedo Lakes
+100 Linda 355000 4000 4 2.5 2014 79 Bradmore Lane
+155 Amy 495000 3500 3 3.0 2012 52 Lenox Drive
+280 Grant 950000 5000 5 6.5 2016 223 Willow Pines
+6
+1 119 Linda 985000 2950 2 2.0 2013 1200 Park Avenue
+2 116
+3 132
+5 Amy
+4 400000
+6
+0
